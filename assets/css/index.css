@@ -1,0 +1,116 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0px;
+    display: grid;
+    grid-template-rows: 140px 1fr 24px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+
+.content {
+    padding: 40px;
+}
+
+.wrapper {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.938);
+    border-top: 5px solid rgb(158, 47, 3);
+    display: block;
+    position: relative;
+    width: 100%;
+
+}
+
+.header {
+    grid-area: header;
+    background-color: rgb rgb(0, 0, 0);
+    display: block;
+    margin: 0 auto;
+    clear: both;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.topleft {
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex;
+    align-items: left center;
+    text-align: left;
+    margin-right: 10px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    color: inherit;
+    outline: none;
+    border-radius: 7px;
+    word-wrap: break-word;
+    float: left;
+}
+.title {
+    padding: 150px;
+    font-weight: 250;
+    text-decoration: none;
+    color: rgb(207, 111, 0);
+
+}
+
+.topright {
+    list-style: none;
+    margin-right: 150px;
+    text-align: right;
+
+}
+.info {
+    list-style: none;
+}
+
+.email {
+    padding-right: 250px;
+    color: rgb(41, 221, 116);
+}
+.discord {
+    padding-right: 190px;
+    color: rgb(51, 120, 211);
+}
+
+.emailbr {
+    padding-right: 200px;
+}
+
+.main {
+    grid-area: main;
+    background-color: rgb(0, 0, 0);
+}
+
+.interactives {
+    text-align: right;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+.interacives > h2 > li > a {
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: rgb(158, 47, 3);
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    align-items: center;
+    list-style: none;
+    padding-right: 20px;
+    color: rgb(255, 255, 255);
+}
