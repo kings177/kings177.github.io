@@ -66,21 +66,21 @@ body {
 .email {
     position: sticky;
     padding-right: 230px;
-    color: rgb(41, 221, 116);
+    color: rgb(228, 68, 68);
 }
 .emailbr {
-    font-size: 0.75rem;
+    font-size: 0.70rem;
     padding-right: 85px;
+    color: rgba(0, 255, 234, 0.815);
     
-    color: rgb(228, 68, 68);
 }
 .discord {
     position: sticky;
     padding-right: 110px;
-    color: rgb(51, 120, 211);
+    color: rgb(53, 110, 185);
 }
 .discordbr {
-    font-size: 0.78rem;
+    font-size: 0.70rem;
     padding-right: 55px;
     color: rgba(0, 255, 234, 0.815);
 }
